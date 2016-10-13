@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        var div = $("div");
+        div.animate({height: '600px', opacity: '0.2'}, 1000);
+        div.animate({width: '600px', opacity: '0.8'}, 1000);
+        div.animate({height: '300px', opacity: '0.2'}, 1000);
+        div.animate({width: '300px', opacity: '0.8'}, 1000);
+    });
+});
+</script>
+</head>
+<body>
+
+<button>Start </button>
+
+<div style="background:#ff0000;height:300px;width:300px;position:absolute;top:100px"><h1 style="position:absolute;top:50%;left:50%;transform: translate(-50%,-50%);color: yellow; font-style: italic; ">Prashant</div>
+
+</body>
+</html>
+
